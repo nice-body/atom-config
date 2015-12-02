@@ -1,0 +1,18 @@
+packages: [
+  "atom-beautify"
+  "atom-material-syntax"
+  "atom-material-syntax-light"
+  "atom-material-ui"
+  "color-picker"
+  "editorconfig"
+  "emmet"
+  "file-icons"
+  "git-log"
+  "linter"
+  "linter-eslint"
+  "package-sync"
+  "pigments"
+  "tool-bar"
+  "tool-bar-main"
+  "tree-view-git-status"
+]
