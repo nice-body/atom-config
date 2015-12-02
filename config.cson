@@ -47,6 +47,13 @@
   pigments: {}
   "linter-eslint":
     globalNodePath: "C:\\Users\\neo\\AppData\\Roaming\\npm"
+  "indentation-indicator":
+    indicatorPosition: "right"
+    spaceAfterColon: true
+  "status-bar":
+    cursorPositionFormat: " %L : %C"
+    selectionCountFormat: " %L, %C"
+  "flex-tool-bar": {}
 ".js.source":
   editor:
     autoIndent: true
