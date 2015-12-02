@@ -1,0 +1,66 @@
+[
+  {
+    type: "url"
+    icon: "octoface"
+    url: "https://github.com/nice-body"
+    tooltip: "My Github Page"
+  }
+  {
+    type: "url"
+    icon: "bitbucket"
+    iconset: "fa"
+    url: "https://bitbucket.org/nice_body/"
+    tooltip: "My bitbucket Page"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type: "button"
+    icon: "file-o"
+    callback: "application:new-file"
+    tooltip: "New File"
+    iconset: "fa"
+  }
+  {
+    type: "button"
+    icon: "folder-open"
+    iconset: "fa"
+    callback: "application:open-file"
+    tooltip: "Open File"
+  }
+  {
+    type: "button"
+    icon: "columns"
+    iconset: "fa"
+    tooltip: "split pane"
+    callback: ["pane:split-right", "pane:split-right"]
+    mode: "dev"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type: "button"
+    icon: "circuit-board"
+    callback: "git-diff:toggle-diff-list"
+    style:
+      color: "#FA4F28"
+  }
+  {
+    type: "button"
+    icon: "markdown"
+    callback: "markdown-preview:toggle"
+    disable: "!markdown"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type: "button"
+    icon: "gears"
+    iconset: "fa"
+    callback: "settings-view:open"
+    tooltip: "Open Setting View"
+  }
+]
