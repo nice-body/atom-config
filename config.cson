@@ -1,0 +1,53 @@
+"*":
+  "exception-reporting":
+    userId: "3083e295-275e-dcba-bec0-b339ccf813de"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+    autoHideMenuBar: true
+    openEmptyEditorOnStart: false
+    disabledPackages: [
+      "sublime-panes"
+    ]
+  editor:
+    invisibles: {}
+    fontFamily: "source code pro"
+    tabLength: 4
+    tabType: "soft"
+    backUpBeforeSaving: true
+    autoIndentOnPaste: false
+    scrollPastEnd: true
+    showInvisibles: true
+  "one-dark-ui": {}
+  "tool-bar":
+    position: "Left"
+  "atom-material-ui":
+    fonts: {}
+    ui:
+      panelContrast: true
+      panelShadows: true
+    tabs: {}
+    treeView:
+      compactList: true
+  "autocomplete-plus": {}
+  linter: {}
+  "git-diff":
+    showIconsInEditorGutter: true
+  "git-log": {}
+  "tree-view-git-status": {}
+  emmet: {}
+  "file-icons":
+    tabPaneIcon: false
+  "atom-beautify":
+    analytics: false
+  pigments: {}
+  "linter-eslint":
+    globalNodePath: "C:\\Users\\neo\\AppData\\Roaming\\npm"
+".js.source":
+  editor:
+    autoIndent: true
+    tabLength: 2
