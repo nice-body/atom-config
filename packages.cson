@@ -11,6 +11,7 @@ packages: [
   "flex-tool-bar"
   "git-log"
   "linter"
+  "linter-csslint"
   "linter-eslint"
   "package-sync"
   "pigments"
