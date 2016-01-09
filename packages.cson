@@ -16,5 +16,4 @@ packages: [
   "package-sync"
   "pigments"
   "tool-bar"
-  "tree-view-git-status"
 ]
