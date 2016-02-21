@@ -17,6 +17,7 @@ packages: [
   "linter-eslint"
   "linter-jsonlint"
   "linter-php"
+  "linter-stylelint"
   "package-sync"
   "pigments"
   "tool-bar"
