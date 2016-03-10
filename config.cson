@@ -65,3 +65,7 @@
   editor:
     autoIndent: true
     tabLength: 2
+".css.source":
+  editor:
+    autoIndent: true
+    tabLength: 2
