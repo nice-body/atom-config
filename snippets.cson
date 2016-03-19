@@ -43,7 +43,7 @@
     '自执行函数':
         'prefix': 'iife'
         'body': """
-;(function {
+;(function () {
   ${1}
 })()
         """
