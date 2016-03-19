@@ -39,3 +39,12 @@
 </body>
 </html>
         """
+'.source.js':
+    '自执行函数':
+        'prefix': 'iife'
+        'body': """
+;(function {
+  ${1}
+})()
+        """
+        
