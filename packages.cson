@@ -8,6 +8,7 @@ packages: [
   "color-picker"
   "editorconfig"
   "emmet"
+  "ex-mode"
   "file-icons"
   "flex-tool-bar"
   "git-blame"
@@ -22,4 +23,5 @@ packages: [
   "pigments"
   "tool-bar"
   "tree-view-git-branch"
+  "vim-mode"
 ]
