@@ -1,0 +1,4 @@
+'atom-text-editor.vim-mode':
+    'j k': 'vim-mode:reset-normal-mode'
+'atom-text-editor.vim-mode:not(.normal-mode)':
+    'j k': 'vim-mode:activate-normal-mode'
