@@ -2,14 +2,14 @@
   {
     type: "url"
     icon: "octoface"
-    url: "https://github.com/nice-body"
+    url: "https://github.com"
     tooltip: "My Github Page"
   }
   {
     type: "url"
     icon: "bitbucket"
     iconset: "fa"
-    url: "https://bitbucket.org/nice_body/"
+    url: "https://bitbucket.org"
     tooltip: "My bitbucket Page"
   }
   {
@@ -51,6 +51,7 @@
     type: "button"
     icon: "markdown"
     callback: "markdown-preview:toggle"
+    hide: "!markdown"
     disable: "!markdown"
   }
   {
