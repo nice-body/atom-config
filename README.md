@@ -15,7 +15,7 @@ Then, install [package-sync](https://atom.io/packages/package-sync).
 ```
 $ apm install package-sync
 ```
-Final, open the command palette and execute the `Sync` command.
+Finally, open the command palette and execute the `Sync` command.
 ![sync packages](http://pic.yupoo.com/nice-body/FssaHVYk/medium.jpg)
 > If the sync progress is not responding, you can reload atom editor and the progress will continue.
 
