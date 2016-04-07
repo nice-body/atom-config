@@ -1,24 +1,39 @@
 "*":
   "atom-beautify":
-    analytics: false
+    css:
+      end_with_newline: true
+      indent_char: " "
+      indent_size: 2
+    general:
+      analytics: false
+      beautifyEntireFileOnSave: false
+    html:
+      brace_style: "expand"
+      end_with_newline: true
+      extra_liners: []
+      indent_char: " "
+      indent_scripts: "normal"
+      indent_size: 4
+    js:
+      end_with_newline: true
+      indent_char: " "
+      indent_level: 0
+      indent_size: 2
+      indent_with_tabs: false
+      max_preserve_newlines: 2
+      preserve_newlines: true
   "atom-material-ui":
-    fonts: {}
-    panels:
-      panelContrast: true
-    tabs: {}
+    tabs:
+      compactTabs: true
     treeView:
       compactList: true
-      compactTreeView: true
     ui:
       panelContrast: true
       panelShadows: true
-  "autocomplete-plus": {}
+  "color-picker":
+    preferredFormat: "HEX"
   core:
     autoHideMenuBar: true
-    disabledPackages: [
-      "sublime-panes"
-      "sync-settings"
-    ]
     openEmptyEditorOnStart: false
     themes: [
       "atom-material-ui"
@@ -30,42 +45,35 @@
     fontFamily: "source code pro"
     invisibles: {}
     scrollPastEnd: true
+    showIndentGuide: true
     showInvisibles: true
     tabLength: 4
     tabType: "soft"
-  emmet: {}
-  "file-icons":
-    tabPaneIcon: false
-  "flex-tool-bar": {}
   "git-diff":
     showIconsInEditorGutter: true
-  "git-log": {}
-  "git-plus": {}
   "indentation-indicator":
     indicatorPosition: "right"
     spaceAfterColon: true
   linter:
     lintOnFly: false
-  "linter-eslint":
-    globalNodePath: ""
-  "linter-php":
-    executablePath: ""
-  "linter-scss-lint": {}
-  "one-dark-ui": {}
-  pigments: {}
+    showErrorTabLine: true
   "status-bar":
     cursorPositionFormat: " %L : %C"
     selectionCountFormat: " %L, %C"
   "tool-bar":
     position: "Left"
-  "tree-view-git-status": {}
+  "tree-view-git-branch": {}
   welcome:
     showOnStartup: false
+".css.source":
+  editor:
+    autoIndent: true
+    tabLength: 2
 ".js.source":
   editor:
     autoIndent: true
     tabLength: 2
-".css.source":
+".json.source":
   editor:
     autoIndent: true
     tabLength: 2
