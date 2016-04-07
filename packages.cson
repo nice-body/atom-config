@@ -11,6 +11,7 @@ packages: [
   "file-icons"
   "flex-tool-bar"
   "git-log"
+  "indentation-indicator"
   "linter"
   "linter-eslint"
   "linter-jsonlint"
