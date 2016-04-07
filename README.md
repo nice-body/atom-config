@@ -5,15 +5,15 @@ This is a configuration for atom editor.It's consist of config, keymaps, snippet
 Using the config very simple, see below.
 ```
 # remove .atom directory
-rm -rf ~/.atom
+$ rm -rf ~/.atom
 # change the working directory
-cd ~
+$ cd ~
 # clone this repo to the new .atom directory
-git clone https://github.com/nice-body/atom-config.git .atom
+$ git clone https://github.com/nice-body/atom-config.git .atom
 ```
 Then, install [package-sync](https://atom.io/packages/package-sync).
 ```
-apm install package-sync
+$ apm install package-sync
 ```
 Final, open the command palette and execute the `Sync` command.
 ![sync packages](http://pic.yupoo.com/nice-body/FssaHVYk/medium.jpg)
