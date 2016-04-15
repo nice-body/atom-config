@@ -55,7 +55,7 @@
     'arrow function(no parameter)':
         'prefix': 'afn'
         'body': """
-() => ${2}
+() => ${1}
         """
     'arrow function(one parameter)':
         'prefix': 'afo'
